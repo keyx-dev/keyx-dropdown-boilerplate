@@ -4,7 +4,7 @@ import * as RadixDropdownMenu from "@radix-ui/react-dropdown-menu";
 import "./app-dropdown.scss";
 
 export default function AppDropdown(props) {
-  const { sameWidth = false, children, content, className, ...rest } = props;
+  const { sameWidth = false, content, children, className, ...rest } = props;
 
   const Element = props.as || RadixDropdownMenu.Root;
 

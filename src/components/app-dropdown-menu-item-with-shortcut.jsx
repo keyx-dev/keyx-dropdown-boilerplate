@@ -6,8 +6,8 @@ import "./app-dropdown-menu-item-with-shortcut.scss";
 export default function AppDropdownMenuItemWithShortcut(props) {
   const {
     shortcutText = "⌘E",
-    text = "Menu Item",
     icon,
+    text = "Menu Item",
     hover,
     className,
     ...rest

@@ -5,8 +5,8 @@ import "./two-line-app-dropdown-menu-item.scss";
 
 export default function TwoLineAppDropdownMenuItem(props) {
   const {
-    icon,
     description = "Big section heading",
+    icon,
     label = "Heading 1",
     hover,
     className,
