@@ -1,0 +1,68 @@
+.lucideCopy_1_67 {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  opacity: 1;
+}
+
+.menuItem_1_70 {
+  opacity: 1;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+
+  .menuItem {
+    font-weight: 400;
+  }
+}
+/* Variants */
+
+.appDropdown_1_71 {
+  display: inline-flex;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  opacity: 1;
+}
+
+.lucideCopy_1_67 {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  opacity: 1;
+}
+
+.vector_i_1_67_1_65 {
+  width: 13.333px;
+  height: 13.333px;
+  flex-shrink: 0;
+  stroke-width: 0.667px;
+  stroke: #000;
+  opacity: 1;
+}
+
+.menuItem_1_70 {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 1;
+}
+
+.appDropdown_1_71:hover {
+  background: #ededed;
+}

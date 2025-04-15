@@ -1,0 +1,89 @@
+/*  */
+
+.appDropdown_1_38 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+  opacity: 1;
+}
+/* Children Css */
+
+.appDropdownTrigger_1_39 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  opacity: 1;
+}
+
+.appDropdownContent_1_47 {
+  position: relative;
+  align-self: stretch;
+  border: 1px solid #000;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+
+  animation-duration: 200ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+  &[data-side="top"] {
+    animation-name: slideDownAndFade;
+  }
+  &[data-side="right"] {
+    animation-name: slideLeftAndFade;
+  }
+  &[data-side="bottom"] {
+    animation-name: slideUpAndFade;
+  }
+  &[data-side="left"] {
+    animation-name: slideRightAndFade;
+  }
+
+  @at-root {
+    @keyframes slideUpAndFade {
+      from {
+        opacity: 0;
+        transform: translateY(2px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideRightAndFade {
+      from {
+        opacity: 0;
+        transform: translateX(-2px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideDownAndFade {
+      from {
+        opacity: 0;
+        transform: translateY(-2px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideLeftAndFade {
+      from {
+        opacity: 0;
+        transform: translateX(2px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+}
