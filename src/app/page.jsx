@@ -1,10 +1,11 @@
 import AppDropdownMenuItem from "@/components/app-dropdown-menu-item";
-import LucideCopyPlus from "@/components/lucide-copy-plus";
+import LucideSettings from "@/components/lucide-settings";
 import LucideSquarePen from "@/components/lucide-square-pen";
 import LucideGroup from "@/components/lucide-group";
 import LucideCopy from "@/components/lucide-copy";
 import AppDropdown from "@/components/app-dropdown";
 import AppDropdownMenuItemWithShortcut from "@/components/app-dropdown-menu-item-with-shortcut";
+import LucideCopyPlus from "@/components/lucide-copy-plus";
 import LucideTrash2 from "@/components/lucide-trash-2";
 import LucideFlaskConical from "@/components/lucide-flask-conical";
 import LucideSquareChevronRight from "@/components/lucide-square-chevron-right";
@@ -32,8 +33,8 @@ export default async function SamplePage({ params, searchParams }) {
             <div className="menuWithIcons_1_59">
               <AppDropdownMenuItem
                 hover={false}
-                icon={<LucideCopyPlus className="lucideCopyPlus_i_1_78_1_67" />}
-                text="Copy"
+                icon={<LucideSettings className="lucideSettings_i_1_78_1_67" />}
+                text="Config"
                 className="appDropdown_1_78"
               />
               <AppDropdownMenuItem
@@ -84,8 +85,8 @@ export default async function SamplePage({ params, searchParams }) {
             <div className="menuWithIcons_1_59">
               <AppDropdownMenuItem
                 hover={false}
-                icon={<LucideCopyPlus className="lucideCopyPlus_i_1_78_1_67" />}
-                text="Copy"
+                icon={<LucideSettings className="lucideSettings_i_1_78_1_67" />}
+                text="Config"
                 className="appDropdown_1_78"
               />
               <AppDropdownMenuItem
